@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    width: 450px;
+    height: 50%;
+    background-color: #dddddd4f;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 8px 1px #ffffffd5;
+}
+
+.pesquisar-local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.formulario input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffffe3;
+    color: #333333;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.formulario button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFD93D;
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #FF8400;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 8%;
+    width: 70%;
+}
+
+.info .temp{
+    font-size: 1.8rem;
+}
